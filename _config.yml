@@ -95,16 +95,16 @@ analytics:
 author:
   name             : "Albert Roh"
   avatar           : "/assets/images/HyoKang3.jpg"
-  bio              : "*Assistant Professor*<br />Marshall School of Business<br />University of Southern California<br /><br />*Research Affiliate*<br />MIT Initiative on the Digital Economy"
+  bio              : "*Ph.D. Student (2nd year)*<br />Marshall School of Business<br />University of Southern California<br />"
   location         : #"Los Angeles, CA"
   email            : 
   links:
-    - label: "hyokang@marshall.usc.edu"
+    - label: "albert.roh@marshall.usc.edu"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:hyokang@marshall.usc.edu"
+      url: "mailto:albert.roh@marshall.usc.edu"
     - label: "USC Webpage"
       icon: "fas fa-fw fa-university"
-      url: "https://www.marshall.usc.edu/personnel/hyo-kang"
+      url: "https://www.marshall.usc.edu/personnel/albert-roh"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=4uWW4QcAAAAJ&hl=en"
