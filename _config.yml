@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name             : "Albert Roh"
-  avatar           : "/assets/images/HyoKang3.jpg"
+  avatar           : "/assets/images/AR_profile.jpg"
   bio              : "*Ph.D. Student (2nd year)*<br />Marshall School of Business<br />University of Southern California<br />"
-  location         : #"Los Angeles, CA"
+  location         : "Los Angeles, CA"
   email            : 
   links:
     - label: "albert.roh@marshall.usc.edu"
@@ -107,16 +107,16 @@ author:
       url: "https://www.marshall.usc.edu/personnel/albert-roh"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=4uWW4QcAAAAJ&hl=en"
-    - label: "SSRN"
-      icon: "far fa-fw fa-list-alt"
-      url: "https://ssrn.com/author=2205901"
+      url: "https://scholar.google.com/citations?user=oMqpSPsAAAAJ&hl=en&oi=ao"
+    # - label: "SSRN"
+    #   icon: "far fa-fw fa-list-alt"
+    #   url: "https://ssrn.com/author=2205901"
     - label: "CV"
       icon: "far fa-fw fa-file-pdf"
-      url: "https://hyokangs.github.io/assets/pdf/CV-Hyo-Kang.pdf"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://hyokangs.github.io/assets/pdf/AR_CV_0224.pdf"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/AlbertRoh"
 
 # Site Footer
 footer:
