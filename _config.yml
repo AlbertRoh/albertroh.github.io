@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Albert Roh"
 description              : "Ph.D. student of Management and Organization, Marshall School of Business, University of Southern California. Studies artificial intelligence, non-market strategy (corporate political activities), and innovation."
-url                      : "https://www.aimanagementlab.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https:www.aimanagementlab.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https:albertroh.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "assets/images/AR_profile.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
