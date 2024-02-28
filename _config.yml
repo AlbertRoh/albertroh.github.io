@@ -113,7 +113,7 @@ author:
     #   url: "https://ssrn.com/author=2205901"
     - label: "CV"
       icon: "far fa-fw fa-file-pdf"
-      url: "https://hyokangs.github.io/assets/pdf/AR_CV_0224.pdf"
+      url: "https://albertroh.github.io/assets/pdf/AR_CV_0224.pdf"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/AlbertRoh"
