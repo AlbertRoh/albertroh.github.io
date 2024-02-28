@@ -12,5 +12,5 @@ I am a second-year Ph.D. student in Management and Organization at the USC Marsh
 For more information, please see my <!--<a href="/assets/pdf/CV-Hyo-Kang.pdf" class="btn btn--warning" target="_blank">CV</a>-->
 <br />
 <br />
-<img src="https://ide.mit.edu/wp-content/themes/mit/dist/img/MIT-IDE-logo.png" width="120" align="right">
+<img src="https://identity.usc.edu/wp-content/uploads/2022/08/PrimaryLogotype-768x164.png" width="200" align="right">
 
