@@ -1,15 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://hyokang.com
+    url: https://aimanagementlab.com
   - title: "Research"
     url: /research/
   - title: "Teaching"
     url: /teaching/
-  - title: "Gallery"
-    url: /gallery/
   - title: "CV<sub>PDF</sub>"
-    url: https://hyokangs.github.io/assets/pdf/CV-Hyo-Kang.pdf
+    url: https://albertroh.github.io/assets/pdf/AR_CV_0224.pdf
 
 # Research sidebar
 sidebar-research:
@@ -24,20 +22,4 @@ sidebar-research:
 sidebar-teaching:
   - title: "USC-Marshall"
     url: /teaching/#university-of-southern-california
-  - title: "Berkeley-Haas"
-    url: /teaching/#university-of-california-berkeley
-  - title: "Seoul Nat'l Univ."
-    url: /teaching/#seoul-national-university
     
-# Gallery sidebar
-sidebar-gallery:
-  - title: "Yellowstone"
-    url: /gallery/#yellowstone-national-park
-  - title: "Iceland"
-    url: /gallery/#iceland
-  - title: "North California"
-    url: /gallery/#north-california
-  - title: "Seoul"
-    url: /gallery/#seoul
-  - title: "Italy"
-    url: /gallery/#italy
