@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "Home"
-    url: https://albertroh.github.io
+    url: https://aimanagementlab.com/
   - title: "Research"
     url: /research/
   - title: "Teaching"
     url: /teaching/
   - title: "CV<sub>PDF</sub>"
-    url: https://albertroh.github.io/assets/pdf/AR_CV_0224.pdf
+    url: https://albertroh.github.io/assets/pdf/AR_CV_0824.pdf
 
 # Research sidebar
 sidebar-research:

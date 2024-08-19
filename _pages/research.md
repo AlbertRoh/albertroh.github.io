@@ -14,13 +14,21 @@ sidebar:
 
 # Working Papers
 
++ **Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies**.  
+Working paper. 2024. Roh, A., Miric, M., & Jia, N.
+  <details>
+  <summary><font color="gray">Abstract +</font></summary>
+    <blockquote>To Be Updated.</blockquote>
+  </details>
+
+
 + **Generative AI for Enhanced Management Research: Analyzing Policy Environment for Firms' Technology Development Based on Congressional Hearings**.  
 Working paper. 2024. Roh, A., Miric, M., & Jia, N.
   <details>
   <summary><font color="gray">Abstract +</font></summary>
     <blockquote>To Be Updated.</blockquote>
   </details>
-  
+
 + **Influence Activities in Academia: Evidence from Social Media**.  
 Working paper. 2019. Chen, S., Fan, X., & Roh, A.
   <details>
