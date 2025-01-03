@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <br />
-I am a third-year Ph.D. student in Management and Organization at the USC Marshall School of Business. My research focuses on how government regulations affect innovation strategies of firms in emerging technologies. 
+I am a third-year Ph.D. candidate in Management and Organization at the USC Marshall School of Business. My research focuses on how government regulations affect innovation strategies of firms in emerging technologies. 
 
 For more information, please see my <a href="/assets/pdf/AR_CV_0824.pdf" target="_blank" style="color: #990000; font-weight: bold;">CV</a>.
 <br />
