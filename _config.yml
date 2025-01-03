@@ -20,7 +20,7 @@ title                    : "Albert Roh"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Albert Roh"
-description              : "Ph.D. student of Management and Organization, Marshall School of Business, University of Southern California. Studies artificial intelligence, non-market strategy (corporate political activities), and innovation."
+description              : "Ph.D. candidate of Management and Organization, Marshall School of Business, University of Southern California. Studies artificial intelligence, non-market strategy (corporate political activities), and innovation."
 url                      : "https:www.aimanagementlab.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https:albertroh.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Albert Roh"
   avatar           : "/assets/images/AR_profile.jpg"
-  bio              : "*Ph.D. Student (3rd year)*<br />Marshall School of Business<br />University of Southern California<br />"
+  bio              : "*Ph.D. candidate (3rd year)*<br />Marshall School of Business<br />University of Southern California<br />"
   location         : "Los Angeles, CA"
   email            : 
   links:
