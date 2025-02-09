@@ -14,6 +14,27 @@ sidebar:
 
 # Working Papers
 
++ **How AI Shapes Non-AI Positions: Evidence from Professional Service Firms**.  
+Working paper. 2025. Jia, N., Roh, A., Song, J & Wei, Y.  
+  <details>
+  <summary><font color="gray">Abstract +</font></summary>
+    <blockquote>To Be Updated.</blockquote>
+  </details>
+
++ **Beyond Technology: How Organizations Shape Human-AI Collaboration**.  
+Working paper. 2025. Jia, N., & Roh, A. 
+  <details>
+  <summary><font color="gray">Abstract +</font></summary>
+    <blockquote>To Be Updated.</blockquote>
+  </details>
+
++ **Substitution Over Compliance? Strategic Innovation between Data Privacy and Security Under Regulatory Scrutiny**.  
+Working paper. 2024. Roh, A., Jia, N., & Miric, M. 
+  <details>
+  <summary><font color="gray">Abstract +</font></summary>
+    <blockquote>To Be Updated.</blockquote>
+  </details>
+
 + **Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies**.  
 Working paper. 2024. Roh, A., Miric, M., & Jia, N.
   <details>
@@ -21,35 +42,27 @@ Working paper. 2024. Roh, A., Miric, M., & Jia, N.
     <blockquote>To Be Updated.</blockquote>
   </details>
 
-
 + **Generative AI for Enhanced Management Research: Analyzing Policy Environment for Firms' Technology Development Based on Congressional Hearings**.  
-Working paper. 2024. Roh, A., Miric, M., & Jia, N.
+Working paper. 2023. Roh, A., Miric, M., & Jia, N.
   <details>
   <summary><font color="gray">Abstract +</font></summary>
     <blockquote>To Be Updated.</blockquote>
   </details>
 
-+ **Influence Activities in Academia: Evidence from Social Media**.  
-Working paper. 2019. Chen, S., Fan, X., & Roh, A.
++ **Digital Ingratiation and the Strength of Weak Ties in a Digital Small World Network**.  
+Working paper. 2019. Chen, S., Fan, X., Roh, A., Shi, W., & Tang, Y.
   <details>
   <summary><font color="gray">Abstract +</font></summary>
-    <blockquote>Individuals exploit influence activities for personal gains. This paper shows that tenure-track assistant professors click more “likes” under the dean’s social media posts than their tenured colleagues during performance evaluation periods, utilizing a natural experiment in a university where the dean has substantial personnel discretions. The effect is greater for faculties with less-competitive publication records, and for more frequent social media users prior to the evaluation periods. The results remain robust after considering content heterogeneity, social ties, sample bias, career prospects, and individual-level changes. The findings thus highlight the strategic use of influence activities through social media for career advancements.</blockquote>
+    <blockquote>To Be Updated.</blockquote>
   </details>
 
 # Works-in-progress
-
-+ **Populism and Single-edged Sword**  
-Work in progress. 2023. Jia, N., Werner, T., Miric, M., & Roh, A.
 
 + **Indirect Lobbying to FERC Commissioners**  
 Work in progress. 2023. Hiatt, S., & Roh, A.
 
 + **The Differential Impact of Generative AI on Strategy Research and Researchers**  
 Work in progress. 2024. Kang, H., & Roh, A.
-
-+ **Guilt by Association: Evidence from #MeToo Movement**  
-Work in progress. 2023. Roh, A.
-
 
 <br><br><br><br>
 
