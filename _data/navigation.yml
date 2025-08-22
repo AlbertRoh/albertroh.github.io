@@ -24,3 +24,8 @@ sidebar-research:
 sidebar-teaching:
   - title: "USC-Marshall"
     url: /teaching/#university-of-southern-california
+    children:
+      - title: "Instructor"
+        url: /teaching/#instructor
+      - title: "Guest Lecturer"
+        url: /teaching/#guest-lecturer
