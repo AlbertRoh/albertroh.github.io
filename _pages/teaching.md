@@ -144,7 +144,7 @@ function toggleEvaluation() {
       </table>
 
       <p style="margin-top: 12px; font-size: 0.9em; color: #666;">
-        <em>Scores based on a 4-point scale. Data represent student feedback on learning experience subscales.</em>
+        <em>Scores based on a 4-point scale where 1: Strongly Disagree (Negative), 2: Disagree, 3: Agree, 4: Strongly Agree (Positive).</em>
       </p>
     </div>
 
