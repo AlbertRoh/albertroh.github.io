@@ -10,12 +10,13 @@ sidebar:
 ---
 <style>
   .button-container {
-    display: inline-flex;
-    gap: 15px;
-    margin-top: 5px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 2em;
   }
   .button-container details {
     display: inline-block;
+    margin-right: 15px;
   }
   .button-container summary {
     white-space: nowrap;
