@@ -33,10 +33,10 @@ sidebar:
     outline: none; /* Remove focus outline */
   }
   .button-row button.abstract-btn {
-    color: #80990000; /* Abstract button color */
+    color: #8191A6; /* Abstract button color */
   }
   .button-row button.talks-btn {
-    color: #804169e1; /* Talks button color */
+    color: #BFA084; /* Talks button color */
   }
   .button-row button:hover {
     text-decoration: underline;
