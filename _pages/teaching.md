@@ -152,7 +152,7 @@ function toggleEvaluation() {
   + Spring 2025
 + **Essentials and Digital Frontiers of Big Data**, *Guest Speaker* (DSO-428, UG)<br />
   + Spring 2025
-  + Content: Class on transformers architecture, attention model & application of large language models with coding session
+  + Content: Class on transformers architecture, attention model & application of large language models with live coding session
 + **Applied Product Management**, *Guest Speaker* (MOR-531, MBA)
   + Spring 2025
   + Content: Class on introduction to large language models and their applications for managers
