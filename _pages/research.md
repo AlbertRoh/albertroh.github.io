@@ -49,12 +49,6 @@ Working paper. 2023. Roh, A., Miric, M., & Jia, N.
     <blockquote>To Be Updated.</blockquote>
   </details>
 
-+ **Digital Ingratiation and the Strength of Weak Ties in a Digital Small World Network**.  
-Working paper. 2019. Chen, S., Fan, X., Roh, A., Shi, W., & Tang, Y.
-  <details>
-  <summary><font color="gray">Abstract +</font></summary>
-    <blockquote>To Be Updated.</blockquote>
-  </details>
 
 # Works-in-progress
 
@@ -63,6 +57,15 @@ Work in progress. 2023. Hiatt, S., & Roh, A.
 
 + **The Differential Impact of Generative AI on Strategy Research and Researchers**  
 Work in progress. 2024. Kang, H., & Roh, A.
+
+# Pre-PhD research
+
++ **Digital Ingratiation and the Strength of Weak Ties in a Digital Small World Network**.  
+Working paper. 2019. Chen, S., Fan, X., Roh, A., Shi, W., & Tang, Y.
+  <details>
+  <summary><font color="gray">Abstract +</font></summary>
+    <blockquote>To Be Updated.</blockquote>
+  </details>
 
 <br><br><br><br>
 
