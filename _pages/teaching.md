@@ -12,25 +12,25 @@ sidebar:
 <style>
 /* ---------- Button color overrides ---------- */
 .btn.btn--info {
-  background-color: #8191A6 !important;   
+  background-color: #8191A6 !important;
   border-color: #8191A6 !important;
   color: #ffffff !important;
 }
 .btn.btn--danger {
-  background-color: #BFA084 !important;   
+  background-color: #BFA084 !important;
   border-color: #BFA084 !important;
-  color: #ffffff !important;               
+  color: #ffffff !important;
 }
 .btn.btn--success {
-  background-color: #8C6F5E !important;   
+  background-color: #8C6F5E !important;
   border-color: #8C6F5E !important;
-  color: #ffffff !important;               
+  color: #ffffff !important;
 }
 .btn:hover { filter: brightness(0.92); }
 
 /* ---------- Evaluation section layout ---------- */
-.evaluation-inline {               /* keeps button on same line as label */
-  display: inline-block;
+.evaluation-inline {
+  display: inline-block;   /* keep button on same line as label */
   margin-left: 8px;
   vertical-align: middle;
 }
@@ -45,15 +45,15 @@ sidebar:
 }
 .evaluation-content.show { display: block; }
 
-/* ---------- Table formatting ---------- */
+/* ---------- Table formatting (full width) ---------- */
 .evaluation-table {
-  width: 80%;                      /* narrower for readability */
-  margin: 10px auto;               /* centers the table */
+  width: 100%;               /* fill available width */
+  margin: 0;                 /* no centering margin */
   border-collapse: collapse;
 }
 .evaluation-table th,
 .evaluation-table td {
-  padding: 8px 12px;
+  padding: 10px 12px;
   border-bottom: 1px solid #ddd;
 }
 .evaluation-table th {
@@ -69,7 +69,7 @@ sidebar:
 .evaluation-table th:nth-child(3),
 .evaluation-table td:nth-child(3) { text-align: center; }
 
-/* optional: keep the score bold; color left as-is */
+/* optional emphasis for the numeric scores */
 .score-highlight { font-weight: bold; }
 </style>
 
@@ -99,10 +99,14 @@ function toggleEvaluation() {
       </button>
     </span>
     <div id="evaluationContent" class="evaluation-content">
-      <h4 style="color: #4a90e2; text-align: center; margin-bottom: 15px;">LEARNING EXPERIENCE SUBSCALE ANALYSIS</h4>
-      <p><strong>Learning Experience Subscale Average Score</strong></p>
 
       <table class="evaluation-table">
+        <!-- control column proportions so the table doesn't look skewed -->
+        <colgroup>
+          <col style="width:60%">
+          <col style="width:20%">
+          <col style="width:20%">
+        </colgroup>
         <thead>
           <tr>
             <th>Competency</th>
@@ -139,14 +143,14 @@ function toggleEvaluation() {
         </tbody>
       </table>
 
-      <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
-        <em>Scores based on 4-point scale. Data represents student feedback on learning experience subscales.</em>
+      <p style="margin-top: 12px; font-size: 0.9em; color: #666;">
+        <em>Scores based on a 4-point scale. Data represent student feedback on learning experience subscales.</em>
       </p>
     </div>
 
 + **Strategic Management**, *Teaching Assistant* (BUAD497; UG)
   + Spring 2025
-+ **Essentials and Digital Frontiers of Big Data**, *Guest Speaker* (DSO-428, UG)<br />  
++ **Essentials and Digital Frontiers of Big Data**, *Guest Speaker* (DSO-428, UG)<br />
   + Spring 2025
   + Content: Class on transformers architecture, attention model & application of large language models with coding session
 + **Applied Product Management**, *Guest Speaker* (MOR-531, MBA)
