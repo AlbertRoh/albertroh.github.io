@@ -15,12 +15,18 @@ sidebar:
     margin-left: 2em;
   }
   .button-container details {
-    display: inline-block;
-    margin-right: 15px;
+    display: inline;
+    margin-right: 20px;
   }
   .button-container summary {
     white-space: nowrap;
     cursor: pointer;
+    display: inline-block;
+  }
+  .button-container blockquote {
+    display: block;
+    margin-top: 10px;
+    clear: both;
   }
 </style>
 <div style="margin-top:10px;"></div> <!-- -30px -->
