@@ -21,13 +21,22 @@ sidebar:
   .button-row button {
     background: none;
     border: none;
-    color: gray;
     cursor: pointer;
     padding: 0;
     margin-right: 20px;
     font-family: inherit;
     font-size: inherit;
     text-decoration: none;
+    outline: none; /* Remove the focus outline */
+  }
+  .button-row button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  .button-row button.abstract-btn {
+    color: #990000; /* Abstract button color */
+  }
+  .button-row button.talks-btn {
+    color: #4169e1; /* Talks button color */
   }
   .button-row button:hover {
     text-decoration: underline;
@@ -54,19 +63,29 @@ document.addEventListener('DOMContentLoaded', function() {
     const abstractContent = container.querySelector('.abstract-content').innerHTML;
     const talksContent = container.querySelector('.talks-content').innerHTML;
     
+    let currentContent = null; // Track which content is currently shown
+    
     abstractBtn.addEventListener('click', function() {
-      if (contentArea.innerHTML === abstractContent) {
+      if (currentContent === 'abstract') {
+        // If abstract is already showing, close it
         contentArea.innerHTML = '';
+        currentContent = null;
       } else {
+        // Show abstract content (whether nothing was showing or talks was showing)
         contentArea.innerHTML = abstractContent;
+        currentContent = 'abstract';
       }
     });
     
     talksBtn.addEventListener('click', function() {
-      if (contentArea.innerHTML === talksContent) {
+      if (currentContent === 'talks') {
+        // If talks is already showing, close it
         contentArea.innerHTML = '';
+        currentContent = null;
       } else {
+        // Show talks content (whether nothing was showing or abstract was showing)
         contentArea.innerHTML = talksContent;
+        currentContent = 'talks';
       }
     });
   });
