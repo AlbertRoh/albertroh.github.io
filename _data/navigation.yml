@@ -17,6 +17,8 @@ sidebar-research:
     url: /research/#working-papers
   - title: "Works-in-progress"
     url: /research/#works-in-progress
+  - title: "Pre-PhD research"
+    url: /research/#pre-phd-research
 
 # Teaching sidebar
 sidebar-teaching:
