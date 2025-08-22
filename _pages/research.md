@@ -33,10 +33,10 @@ sidebar:
     outline: none; /* Remove focus outline */
   }
   .button-row button.abstract-btn {
-    color: #990000; /* Abstract button color */
+    color: #80990000; /* Abstract button color */
   }
   .button-row button.talks-btn {
-    color: #4169e1; /* Talks button color */
+    color: #804169e1; /* Talks button color */
   }
   .button-row button:hover {
     text-decoration: underline;
@@ -114,8 +114,8 @@ Working paper. 2025. Jia, N., & Roh, A.
       <button class="talks-btn">Invited Talks & Presentations +</button>
     </div>
     <div class="content-area"></div>
-    <div class="abstract-content" style="display:none;"><blockquote>To Be Updated.</blockquote></div>
-    <div class="talks-content" style="display:none;"><blockquote>To Be Updated.</blockquote></div>
+    <div class="abstract-content" style="display:none;"><blockquote>The common competition-centric view of Artificial Intelligence (AI) suggests that AI and humans should be assigned to different tasks based on their respective strengths. However, there is an increasing interest in humans and AI collaborating on the same tasks, often referred to as the “ensemble” approach. Understanding and fostering this collaboration is crucial, not only to maximize AI’s impact but also to redefine human roles in the age of technology. We argue that organizations play a key role in shaping how this collaboration unfolds and the resulting outcomes. In our conceptual framework, we focus on the judgment calls that organizations and decision-makers must make when aggregating predictions from both AI and human sources on the same task. Various organizational elements can lead to deviations from optimal aggregation, influencing the effectiveness of human-AI collaboration. We contend that the success of this collaboration depends not only on the capabilities of the technology but also on the organizational structures and dynamics that guide its implementation. This study highlights that the sustained competitive advantage of AI adoption lies in an organization’s ability to foster effective human-AI collaboration.</blockquote></div>
+    <div class="talks-content" style="display:none;"><blockquote>AOM 2025 (Session #10191)</blockquote></div>
   </div>
 
 + **Substitution Over Compliance? Strategic Innovation between Data Privacy and Security Under Regulatory Scrutiny**.  
