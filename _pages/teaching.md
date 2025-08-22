@@ -10,38 +10,29 @@ sidebar:
 ---
 
 <style>
-/* Custom button colors */
-.btn--custom1 {
-  background-color: #8191A6;
-  color: white;
+/* ---------- Button color overrides ---------- */
+.btn.btn--info {
+  background-color: #8191A6 !important;   
+  border-color: #8191A6 !important;
+  color: #ffffff !important;
 }
-
-.btn--custom1:hover {
-  background-color: #6b7a91;
+.btn.btn--danger {
+  background-color: #BFA084 !important;   
+  border-color: #BFA084 !important;
+  color: #ffffff !important;               
 }
-
-.btn--custom2 {
-  background-color: #CEE1F2;
-  color: #333;
+.btn.btn--success {
+  background-color: #8C6F5E !important;   
+  border-color: #8C6F5E !important;
+  color: #ffffff !important;               
 }
+.btn:hover { filter: brightness(0.92); }
 
-.btn--custom2:hover {
-  background-color: #b8d4ea;
-}
-
-.btn--custom3 {
-  background-color: #BFA084;
-  color: white;
-}
-
-.btn--custom3:hover {
-  background-color: #a88c6f;
-}
-
-.evaluation-dropdown {
-  margin: 0;
+/* ---------- Evaluation section layout ---------- */
+.evaluation-inline {               /* keeps button on same line as label */
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
+  vertical-align: middle;
 }
 
 .evaluation-content {
@@ -52,51 +43,40 @@ sidebar:
   border-radius: 5px;
   border: 1px solid #dee2e6;
 }
+.evaluation-content.show { display: block; }
 
-.evaluation-content.show {
-  display: block;
-}
-
+/* ---------- Table formatting ---------- */
 .evaluation-table {
-  width: 80%;
+  width: 80%;                      /* narrower for readability */
+  margin: 10px auto;               /* centers the table */
   border-collapse: collapse;
-  margin: 10px auto;
-  text-align: center;
 }
-
 .evaluation-table th,
 .evaluation-table td {
   padding: 8px 12px;
   border-bottom: 1px solid #ddd;
 }
-
 .evaluation-table th {
   background-color: #495057;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
-  text-align: center;
 }
-
-.evaluation-table td:first-child {
-  text-align: left;
-}
-
+/* column alignment: 1st left, 2nd & 3rd centered */
+.evaluation-table th:nth-child(1),
+.evaluation-table td:nth-child(1) { text-align: left; }
+.evaluation-table th:nth-child(2),
 .evaluation-table td:nth-child(2),
-.evaluation-table td:nth-child(3) {
-  text-align: center;
-}
+.evaluation-table th:nth-child(3),
+.evaluation-table td:nth-child(3) { text-align: center; }
 
-.score-highlight {
-  font-weight: bold;
-  color: #007bff;
-}
+/* optional: keep the score bold; color left as-is */
+.score-highlight { font-weight: bold; }
 </style>
 
 <script>
 function toggleEvaluation() {
   var content = document.getElementById("evaluationContent");
   var button = document.getElementById("evaluationButton");
-  
   if (content.classList.contains("show")) {
     content.classList.remove("show");
     button.textContent = "Show Teaching Evaluation ▼";
@@ -111,57 +91,57 @@ function toggleEvaluation() {
 
 # University of Southern California
 + **Strategic Management**, *Instructor* (BUAD497; UG)
-  + Schedule: <a href="https://classes.usc.edu/term/20252/catalogue/course/BUAD497/" class="btn btn--custom1 btn--small">Summer 2025</a>
-  + Syllabi: <a href="/assets/pdf/BUAD497_Syllabus_Summer_2025_Final.pdf" class="btn btn--custom2 btn--small">PDF</a>
-  + Teaching Evaluation: <div class="evaluation-dropdown">
-      <button id="evaluationButton" onclick="toggleEvaluation()" class="btn btn--custom3 btn--small">
+  + Schedule: <a href="https://classes.usc.edu/term/20252/catalogue/course/BUAD497/" class="btn btn--info btn--small">Summer 2025</a>
+  + Syllabi: <a href="/assets/pdf/BUAD497_Syllabus_Summer_2025_Final.pdf" class="btn btn--danger btn--small">PDF</a>
+  + Teaching Evaluation: <span class="evaluation-inline">
+      <button id="evaluationButton" onclick="toggleEvaluation()" class="btn btn--success btn--small">
         Show Teaching Evaluation ▼
       </button>
-      <div id="evaluationContent" class="evaluation-content">
-        <h4 style="color: #4a90e2; text-align: center; margin-bottom: 15px;">LEARNING EXPERIENCE SUBSCALE ANALYSIS</h4>
-        <p style="text-align: center;"><strong>Learning Experience Subscale Average Score</strong></p>
-        
-        <table class="evaluation-table">
-          <thead>
-            <tr>
-              <th>Competency</th>
-              <th>Course-instructor</th>
-              <th>Standard Deviation</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Course Design</td>
-              <td class="score-highlight">3.72</td>
-              <td>+/-0.45</td>
-            </tr>
-            <tr>
-              <td>Instructional Practices</td>
-              <td class="score-highlight">3.68</td>
-              <td>+/-0.47</td>
-            </tr>
-            <tr>
-              <td>Inclusion Practices</td>
-              <td class="score-highlight">3.62</td>
-              <td>+/-0.51</td>
-            </tr>
-            <tr>
-              <td>Assessment Practices</td>
-              <td class="score-highlight">3.59</td>
-              <td>+/-0.52</td>
-            </tr>
-            <tr>
-              <td>Course Impact</td>
-              <td class="score-highlight">3.63</td>
-              <td>+/-0.52</td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <p style="margin-top: 15px; font-size: 0.9em; color: #666; text-align: center;">
-          <em>Scores based on 4-point scale. Data represents student feedback on learning experience subscales.</em>
-        </p>
-      </div>
+    </span>
+    <div id="evaluationContent" class="evaluation-content">
+      <h4 style="color: #4a90e2; text-align: center; margin-bottom: 15px;">LEARNING EXPERIENCE SUBSCALE ANALYSIS</h4>
+      <p><strong>Learning Experience Subscale Average Score</strong></p>
+
+      <table class="evaluation-table">
+        <thead>
+          <tr>
+            <th>Competency</th>
+            <th>Course-instructor</th>
+            <th>Standard Deviation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Course Design</td>
+            <td class="score-highlight">3.72</td>
+            <td>+/-0.45</td>
+          </tr>
+          <tr>
+            <td>Instructional Practices</td>
+            <td class="score-highlight">3.68</td>
+            <td>+/-0.47</td>
+          </tr>
+          <tr>
+            <td>Inclusion Practices</td>
+            <td class="score-highlight">3.62</td>
+            <td>+/-0.51</td>
+          </tr>
+          <tr>
+            <td>Assessment Practices</td>
+            <td class="score-highlight">3.59</td>
+            <td>+/-0.52</td>
+          </tr>
+          <tr>
+            <td>Course Impact</td>
+            <td class="score-highlight">3.63</td>
+            <td>+/-0.52</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top: 15px; font-size: 0.9em; color: #666;">
+        <em>Scores based on 4-point scale. Data represents student feedback on learning experience subscales.</em>
+      </p>
     </div>
 
 + **Strategic Management**, *Teaching Assistant* (BUAD497; UG)
