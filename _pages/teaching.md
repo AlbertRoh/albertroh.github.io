@@ -144,7 +144,7 @@ function toggleEvaluation() {
       </table>
 
       <p style="margin-top: 12px; font-size: 0.9em; color: #666;">
-        <em>Note: Scores based on a 4-point scale (1: Strongly Disagree, 2: Disagree, 3: Agree, 4: Strongly Agree)</em>
+        <em>Note: Scores based on a 4-point scale. The class received highly positive feedback with the median score of 4.0/4.0</em>
       </p>
     </div>
 
