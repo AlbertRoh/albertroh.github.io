@@ -105,7 +105,25 @@ sidebar:
     font-weight: 500;
     vertical-align: middle;
   }
+
+  /* ---------- Nominations ---------- */
+  .nomination-link {
+    color: #7c3aed; /* Royal violet */
+    text-decoration: none;
+    font-weight: 600;
+    padding: 2px 6px;
+    background: linear-gradient(135deg, rgba(124,58,237,0.1) 0%, rgba(139,92,246,0.05) 100%);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+  .nomination-link:hover {
+    color: #6d28d9;
+    background: linear-gradient(135deg, rgba(124,58,237,0.2) 0%, rgba(139,92,246,0.1) 100%);
+    box-shadow: 0 0 10px rgba(124,58,237,0.3);
+  }
 </style>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const containers = document.querySelectorAll('.button-container');
@@ -187,7 +205,7 @@ Working paper. 2024. Roh, A., Jia, N., & Miric, M.
 
 + **Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies**.  
 Working paper. 2024. Roh, A., Miric, M., & Jia, N.
-  + <a href="https://sites.google.com/view/aimanagement/aim2025?authuser=0">Finalist, AIM 2025</a>
+  + <a href="https://sites.google.com/view/aimanagement/aim2025?authuser=0" class="nomination-link">Finalist, AIM 2025</a>
   <div class="button-container">
     <div class="button-row">
       <button class="abstract-btn">Abstract +</button>
