@@ -50,6 +50,60 @@ sidebar:
     padding: 10px;
     background-color: #f9f9f9;
     border-left: 3px solid #ddd;
+    font-style: normal;
+  }
+  
+  /* ---------- R&R Status Banners ---------- */
+  /* First Round R&R Banner */
+  .status-banner-r1 {
+    display: inline-block;
+    background: linear-gradient(90deg, #f9fafb 0%, #e5e7eb 100%);
+    border-left: 3px solid #10b981;
+    color: #065f46;
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  
+  /* Second Round R&R Banner */
+  .status-banner-r2 {
+    display: inline-block;
+    background: linear-gradient(90deg, #fffbeb 0%, #fef3c7 100%);
+    border-left: 3px solid #f59e0b;
+    color: #92400e;
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  
+  /* Under Review Banner (optional) */
+  .status-banner-review {
+    display: inline-block;
+    background: linear-gradient(90deg, #f9fafb 0%, #e5e7eb 100%);
+    border-left: 3px solid #6b7280;
+    color: #374151;
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  
+  /* Accepted/Forthcoming Banner (optional) */
+  .status-banner-accepted {
+    display: inline-block;
+    background: linear-gradient(90deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 3px solid #3b82f6;
+    color: #1e3a8a;
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: middle;
   }
 </style>
 <script>
@@ -91,6 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
 <div style="margin-top:10px;"></div> <!-- -30px -->
 # Publications
 # Working Papers
@@ -107,7 +162,7 @@ Working paper. 2025. Jia, N., Roh, A., Song, J & Wei, Y.
   </div>
 
 + **Beyond Technology: How Organizations Shape Human-AI Collaboration**.  
-Working paper. 2025. Jia, N., & Roh, A. 
+Working paper. 2025. Jia, N., & Roh, A. <span class="status-banner-r1">1st Round R&R • Strategy Science</span>
   <div class="button-container">
     <div class="button-row">
       <button class="abstract-btn">Abstract +</button>
