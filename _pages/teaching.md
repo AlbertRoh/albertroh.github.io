@@ -31,27 +31,35 @@ sidebar:
 
 <div style="margin-top:10px;"></div>
 
+/* ---------- Smaller font for sub-bullets under Teaching Evaluation ---------- */
+ul ul {
+  font-size: 0.9em;   /* adjust size, e.g. 0.85em for smaller */
+  line-height: 1.4;   /* keeps it readable */
+  margin-top: 0.3em;
+}
+</style>
+
 # University of Southern California
 
 + **Strategic Management**, *Instructor* (BUAD-497; Undergraduate)  
   + Schedule: <a href="https://classes.usc.edu/term/20252/catalogue/course/BUAD497/" class="btn btn--info btn--small">Summer 2025</a>  
   + Syllabus: <a href="/assets/pdf/BUAD497_Syllabus_Summer_2025_Final.pdf" class="btn btn--danger btn--small">PDF</a>  
   + Teaching Evaluation:  
-    + Mean: 3.72 / 4 (Marshall School Avg.: 3.61; MOR Dept. Avg.: 3.65)  
+    + Mean: 3.72 / 4 (USC Marshall Average: 3.61; MOR Department Average: 3.65)  
     + Median: 4 / 4  
-    + Students highlighted the course’s emphasis on **real-world applications and case studies**, the **practical use of strategic frameworks and decision-making tools**, the **development of theoretical and conceptual understanding**, and **engaging teaching methods** (lectures, projects, interactive activities).  
+    + Students highlighted the course’s emphasis on *real-world applications and case studies*, the *practical use of strategic frameworks and decision-making tools*, the *development of theoretical and conceptual understanding*, and *engaging teaching methods* including lectures, projects, interactive activities.  
 
 + **Strategic Management**, *Teaching Assistant* (BUAD-497; Undergraduate)  
   + Spring 2025  
 
 + **Essentials and Digital Frontiers of Big Data**, *Guest Speaker* (DSO-428; Undergraduate)  
   + Spring 2025  
-  + Content: Lecture on **transformer architecture, attention mechanisms, and applications of large language models**, including a live coding session.  
+  + Content: Lecture on transformer architecture, attention mechanisms, and applications of large language models, including a live coding session.  
 
 + **Applied Product Management**, *Guest Speaker* (MOR-531; MBA)  
   + Spring 2025  
-  + Content: Session on **large language models and their managerial applications**.  
+  + Content: Session on large language models and their managerial applications.  
 
 + **Seminar in Strategic Management**, *Guest Speaker* (MOR-603; Ph.D.)  
   + Fall 2024  
-  + Content: Seminar on **transformer architecture, attention mechanisms, and applications of large language models in management research**.  
+  + Content: Seminar on transformer architecture, attention mechanisms, and applications of large language models in management research.  
