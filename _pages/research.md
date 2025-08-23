@@ -110,16 +110,16 @@ sidebar:
   .nomination-link {
     color: #7c3aed; /* Royal violet */
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400; /* Normal weight, not bold */
     padding: 2px 6px;
-    background: linear-gradient(135deg, rgba(124,58,237,0.1) 0%, rgba(139,92,246,0.05) 100%);
+    background: linear-gradient(135deg, rgba(124,58,237,0.05) 0%, rgba(139,92,246,0.02) 100%);
     border-radius: 4px;
     transition: all 0.3s ease;
   }
   .nomination-link:hover {
     color: #6d28d9;
-    background: linear-gradient(135deg, rgba(124,58,237,0.2) 0%, rgba(139,92,246,0.1) 100%);
-    box-shadow: 0 0 10px rgba(124,58,237,0.3);
+    background: linear-gradient(135deg, rgba(124,58,237,0.12) 0%, rgba(139,92,246,0.06) 100%);
+    box-shadow: 0 0 8px rgba(124,58,237,0.2);
   }
 </style>
 
