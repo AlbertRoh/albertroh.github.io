@@ -216,10 +216,10 @@ Work in progress. 2023. Hiatt, S., & Roh, A.
 + **The Differential Impact of Generative AI on Strategy Research and Researchers**  
 Work in progress. 2024. Kang, H., & Roh, A.
 
-# Pre-PhD research
+# Pre-PhD Research
 + **Digital Ingratiation and the Strength of Weak Ties in a Digital Small World Network**.  
 Working paper. 2019. Chen, S., Fan, X., Roh, A., Shi, W., & Tang, Y.
-  ++ Former title: Influence Activities through Social Media: Evidence from Academia
+  + *Former title: Influence Activities through Social Media: Evidence from Academia*
   <div class="button-container">
     <div class="button-row">
       <button class="abstract-btn">Abstract +</button>
