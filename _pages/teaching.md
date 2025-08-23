@@ -35,23 +35,19 @@ ul > li {
 
 /* First level nested bullets */
 ul > li > ul > li {
-  font-size: 0.95rem; /* 95% of base size */
+  font-size: 0.85rem; /* 85% of base size */
 }
 
 /* Second level nested bullets */
 ul > li > ul > li > ul > li {
-  font-size: 0.9rem; /* 90% of base size */
+  font-size: 0.7rem; /* 70% of base size */
 }
 
 /* Third level nested bullets */
 ul > li > ul > li > ul > li > ul > li {
-  font-size: 0.85rem; /* 85% of base size */
+  font-size: 0.55rem; /* 55% of base size */
 }
 
-/* Optional: Adjust line height for better readability */
-ul li {
-  line-height: 1.5;
-}
 </style>
 <div style="margin-top:10px;"></div>
 
