@@ -108,16 +108,16 @@ sidebar:
 
   /* ---------- Nominations ---------- */
   .nomination-link {
-    color: #D99D8F;
+    color: #734939;
     text-decoration: none;
-    font-weight: 400; /* Normal weight, not bold */
-    font-size: 85%;
+    font-weight: 600; /* Normal weight, not bold */
+    font-size: 100%;
     padding: 2px 6px;
     border-radius: 4px;
     transition: all 0.3s ease;
   }
   .nomination-link:hover {
-    color: #C48B7D; /* Slightly darker shade for hover */
+    color: #D99D8F; /* Slightly darker shade for hover */
   }
 </style>
 
