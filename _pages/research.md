@@ -174,7 +174,7 @@ Working paper. 2025. Jia, N., Roh, A., Song, J & Wei, Y.
     <div class="talks-content" style="display:none;"><blockquote>AIM 2025 (Marina Del Rey); WCRS 2025 (Seattle)*</blockquote></div>
   </div>
 
-+ **Beyond Technology: How Organizations Shape Human-AI Collaboration**. <span class="status-banner-r1">1st Round R&R • Strategy Science</span>
++ **Beyond Technology: How Organizations Shape Human-AI Collaboration**. <span class="status-banner-r1">1st Round R&R • Strategy Science</span> <br>
 Working paper. 2025. Jia, N., & Roh, A. 
   <div class="button-container">
     <div class="button-row">
