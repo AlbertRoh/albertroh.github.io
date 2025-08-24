@@ -200,7 +200,7 @@ Working paper. 2024. Roh, A., Jia, N., & Miric, M.
 
 + **Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies**.  
 Working paper. 2024. Roh, A., Miric, M., & Jia, N.
-  + <a href="https://sites.google.com/view/aimanagement/aim2025?authuser=0" class="nomination-link">*Finalist, AIM 2025*</a>
+  + <a class="nomination-link">*Finalist, AIM 2025*</a>
   <div class="button-container">
     <div class="button-row">
       <button class="abstract-btn">Abstract +</button>
