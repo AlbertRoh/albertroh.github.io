@@ -111,10 +111,13 @@ sidebar:
     color: #D99D8F;
     text-decoration: none;
     font-weight: 400; /* Normal weight, not bold */
-    font-size: 100%;
+    font-size: 85%;
     padding: 2px 6px;
     border-radius: 4px;
     transition: all 0.3s ease;
+  }
+  .nomination-link:hover {
+    color: #C48B7D; /* Slightly darker shade for hover */
   }
 </style>
 
@@ -200,7 +203,7 @@ Working paper. 2024. Roh, A., Jia, N., & Miric, M.
 
 + **Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies**.  
 Working paper. 2024. Roh, A., Miric, M., & Jia, N.
-  + <a class="nomination-link">*Finalist, AIM 2025*</a>
+  + <span class="nomination-link">*Finalist, AIM 2025*</span>
   <div class="button-container">
     <div class="button-row">
       <button class="abstract-btn">Abstract +</button>
