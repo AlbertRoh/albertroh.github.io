@@ -1,5 +1,5 @@
 # Research entries follow the order, titles, authors, and statuses in the November 2026 CV.
-# Omit github or distinction when the CV does not provide one.
+# Omit github or recognition when the CV does not provide one.
 sections:
   - id: job-market-paper
     title: "Job Market Paper"
@@ -41,7 +41,22 @@ sections:
         github: "https://github.com/HC-Geopolitics-Innovation/Miric-Roh-Jia-OrgSciSIProposal"
         status: "Under Review"
         abstract: >-
-          To Be Updated.
+          Researchers increasingly use large language models (LLMs) to construct variables from long, noisy
+          documents that were previously impractical to study at scale. When an LLM is used end to end,
+          however, the final output is the only observable checkpoint. This opacity makes measures hard to
+          validate and reproduce, and it conceals heterogeneity within documents, so systematic measurement
+          error can bias subsequent analyses. More capable models will not resolve these concerns, because
+          they stem from opacity and lack of control over design choices rather than limited capability.
+          We propose decomposing LLM-based measurement into a pipeline of discrete stages, each producing
+          an inspectable intermediate output. This design allows researchers to validate each stage against
+          its own benchmark, locate where errors arise, revise one stage while reusing the others, and trace
+          aggregate measures back to their components. We demonstrate the approach by processing 2,352
+          congressional hearings and firms’ 10-K filings to summarize hearings, extract policymakers’
+          stances, and measure firms’ exposure to the debate over consumer data privacy. Across 1,058
+          publicly traded firms, we demonstrate how the most exposed firms as reflected in our index
+          experience a shift in their innovation trajectory towards both data anonymization and user-activity
+          tracking. We aim to release the modular code and intermediate datasets, enabling researchers to
+          adapt the pipeline with coding agents and to replicate it stage by stage.
         presentations:
           - "AOM 2024; AOM 2025"
       - title: "How AI Shapes Non-AI Positions: Evidence from Professional Service Firms"
@@ -80,30 +95,11 @@ sections:
         authors: "Roh, A., Miric, M., & Jia, N."
         year: 2024
         status: "Working Paper"
-        distinction: "Finalist, AIM 2025"
+        recognition: "Finalist, AIM 2025"
         abstract: >-
           To Be Updated.
         presentations:
           - "AIM 2025; The 2nd Lakeside Management Conference (Paper Development Workshop); AOM 2025"
-  - id: works-in-progress
-    title: "Work in Progress"
-    papers:
-      - title: "The Great Equalizer? AI and Market Access for Smaller and Lower-Status Firms"
-        authors: "Jia, N., Roh, A., Shi, H., & Yang, Z."
-        year: 2025
-        status: "Preliminary Results"
-      - title: "To Learn or to Leverage? The Strategic Decision to Allow Employee Use of AI"
-        authors: "Camara, O., Jia, N., & Roh, A."
-        year: 2025
-        status: "Refining Theoretical Model"
-      - title: "The Differential Impact of Generative AI on Strategy Research and Researchers"
-        authors: "Kang, H., & Roh, A."
-        year: 2024
-        status: "Preliminary Results"
-      - title: "Indirect Lobbying to FERC Commissioners"
-        authors: "Roh, A., Hiatt, S., & Ryu, A."
-        year: 2023
-        status: "Preliminary Results"
   - id: pre-phd-research
     title: "Pre-PhD Research"
     papers:

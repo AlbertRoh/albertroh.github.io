@@ -21,8 +21,8 @@ sidebar:
       <a class="paper-github" href="{{ paper.github | escape }}" target="_blank" rel="noopener noreferrer">Accompanied GitHub Page</a>
       {% endif %}
       <span class="paper-status"><span class="paper-meta-label">Status:</span> {{ paper.status | escape }}</span>
-      {% if paper.distinction %}
-      <span class="paper-distinction"><span class="paper-meta-label">Distinction:</span> {{ paper.distinction | escape }}</span>
+      {% if paper.recognition %}
+      <span class="paper-recognition"><span class="paper-meta-label">Recognition:</span> {{ paper.recognition | escape }}</span>
       {% endif %}
     </div>
     {% if paper.abstract or paper.presentations %}
