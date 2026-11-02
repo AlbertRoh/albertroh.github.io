@@ -59,11 +59,12 @@ button:focus-visible {
   }
 
   .research-paper {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.6rem;
+    line-height: 1.45;
   }
 
   .paper-citation {
-    margin-top: 0.15em;
+    margin-top: 0.12em;
     color: $muted-text-color;
   }
 
@@ -72,9 +73,9 @@ button:focus-visible {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.35em 1em;
-    margin-top: 0.4em;
+    margin-top: 0.3em;
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.45;
   }
 
   .paper-meta-label {
@@ -105,14 +106,14 @@ button:focus-visible {
 
   .button-container {
     display: block;
-    margin-top: 8px;
+    margin-top: 6px;
   }
 
   .button-row {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35em 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 
     button {
       background: none;
