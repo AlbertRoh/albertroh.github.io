@@ -52,16 +52,66 @@ button:focus-visible {
   font-weight: bold;
 }
 
-/* Research: two action colors and restrained, text-labelled status badges. */
+/* Research: a consistent metadata row below each CV-ordered paper. */
 .research-page {
+  .research-papers {
+    padding-left: 1.25em;
+  }
+
+  .research-paper {
+    margin-bottom: 1.8rem;
+  }
+
+  .paper-citation {
+    margin-top: 0.15em;
+    color: $muted-text-color;
+  }
+
+  .paper-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35em 1em;
+    margin-top: 0.4em;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .paper-meta-label {
+    color: $class-royal;
+    font-weight: 600;
+  }
+
+  .paper-github {
+    display: inline-block;
+    padding: 0.05em 0.5em;
+    border: 1px solid $academy-blue;
+    border-radius: 3px;
+    color: $academy-blue;
+    font-size: inherit;
+    line-height: 1.4;
+    text-decoration: none;
+
+    &:visited {
+      color: $academy-blue;
+    }
+
+    &:hover {
+      background-color: $active-color;
+      color: $class-royal;
+      text-decoration: none;
+    }
+  }
+
   .button-container {
     display: block;
     margin-top: 8px;
-    margin-left: 2em;
   }
 
   .button-row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em 1.2em;
     margin-bottom: 10px;
 
     button {
@@ -69,7 +119,7 @@ button:focus-visible {
       border: none;
       cursor: pointer;
       padding: 0;
-      margin-right: 20px;
+      margin: 0;
       font-family: inherit;
       font-size: inherit;
       text-decoration: none;
@@ -102,59 +152,6 @@ button:focus-visible {
     }
   }
 
-  .status-banner-r1,
-  .status-banner-r2,
-  .status-banner-review,
-  .status-banner-accepted {
-    display: inline-block;
-    padding: 2px 10px;
-    margin-left: 10px;
-    border-left: 3px solid;
-    border-radius: 2px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    vertical-align: middle;
-  }
-
-  .status-banner-r1 {
-    background-color: mix($academy-white, $academy-blue, 95%);
-    border-left-color: $academy-blue;
-    color: $class-royal;
-  }
-
-  .status-banner-r2 {
-    background-color: mix($academy-white, $class-royal, 90%);
-    border-left-color: $class-royal;
-    color: $class-royal;
-    font-weight: 600;
-  }
-
-  .status-banner-review {
-    background-color: mix($academy-white, $academy-slate, 90%);
-    border-left-color: $academy-slate;
-    color: $muted-text-color;
-  }
-
-  .status-banner-accepted {
-    background-color: mix($academy-white, $class-royal, 94%);
-    border-left-color: $academy-navy;
-    color: $academy-navy;
-    font-weight: 600;
-  }
-
-  .nomination-link {
-    color: $class-royal;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 100%;
-    padding: 2px 6px;
-    border-radius: 4px;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: $academy-blue;
-    }
-  }
 }
 
 /* Teaching: an outlined schedule link and a solid syllabus download. */

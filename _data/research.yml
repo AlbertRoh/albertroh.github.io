@@ -1,0 +1,117 @@
+# Research entries follow the order, titles, authors, and statuses in the November 2026 CV.
+# Omit github or distinction when the CV does not provide one.
+sections:
+  - id: job-market-paper
+    title: "Job Market Paper"
+    papers:
+      - title: "Hiring Restrictions, Foreign Human Capital and Innovation Strategies of Firms"
+        authors: "Roh, A."
+        year: 2026
+        status: "Writing Manuscript"
+        presentations:
+          - "Presented at: 2026 NMSRC Doctoral Conference; 2026 CCC Doctoral Student Colloquium"
+          - "Invited for paper development: AOM 2025-STR Doctoral Consortium; SMS 2025 Annual Doctoral Workshop; 2026 Strategy Science Doctoral Workshop"
+  - id: working-papers
+    title: "Working Papers"
+    papers:
+      - title: "How Organizations Shape Human-AI Collaboration Through Aggregation"
+        authors: "Roh, A., & Jia, N."
+        year: 2025
+        status: "Minor Revision at Strategy Science"
+        abstract: >-
+          The common competition-centric view of Artificial Intelligence (AI) suggests that AI and humans
+          should be assigned to different tasks based on their respective strengths. However, there is an
+          increasing interest in humans and AI collaborating on the same tasks, often referred to as the
+          “ensemble” approach. Understanding and fostering this collaboration is crucial, not only to maximize
+          AI’s impact but also to redefine human roles in the age of technology. We argue that organizations
+          play a key role in shaping how this collaboration unfolds and the resulting outcomes. In our
+          conceptual framework, we focus on the judgment calls that organizations and decision-makers must
+          make when aggregating predictions from both AI and human sources on the same task. Various
+          organizational elements can lead to deviations from optimal aggregation, influencing the
+          effectiveness of human-AI collaboration. We contend that the success of this collaboration depends
+          not only on the capabilities of the technology but also on the organizational structures and
+          dynamics that guide its implementation. This study highlights that the sustained competitive
+          advantage of AI adoption lies in an organization’s ability to foster effective human-AI
+          collaboration.
+        presentations:
+          - "ODC RIP; AOM 2025; Caliber Consulting Webinar Series"
+      - title: "Opening the Black Box of Large Language Models in Text-based Measurement: Staged Pipelines with Verifiable Checkpoints"
+        authors: "Miric, M., Roh, A., & Jia, N."
+        year: 2023
+        github: "https://github.com/HC-Geopolitics-Innovation/Miric-Roh-Jia-OrgSciSIProposal"
+        status: "Under Review"
+        abstract: >-
+          To Be Updated.
+        presentations:
+          - "AOM 2024; AOM 2025"
+      - title: "How AI Shapes Non-AI Positions: Evidence from Professional Service Firms"
+        authors: "Jia, N., Roh, A., Song, J., & Wei, Y."
+        year: 2025
+        status: "Working Paper"
+        abstract: >-
+          Artificial intelligence (AI) technologies have been widely applied to tasks traditionally requiring
+          human cognitive skills (“cognitive tasks”), yet their use in tasks requiring human social skills
+          (“social tasks”)—particularly those involving relationship building—remains limited. We argue,
+          however, that AI’s growing role in cognitive tasks reshapes organizational expectations of workers
+          performing social tasks. We examine professional service firms (PSFs), which solve complex client
+          problems by coordinating back-end functions focused on knowledge production with front-end functions
+          centered on client interaction and relationship management. We argue that when PSFs increase AI use
+          in back-end functions, the resulting gains in knowledge quality and speed increase the demands
+          placed on front-end workers. Specifically, increased AI use in back-end functions shapes front-end
+          positions in three key ways: (1) it requires greater time commitment, (2) it raises the level of
+          human capital needed, and (3) it expands the number of front-end positions. To test these arguments,
+          we analyze U.S. job postings from PSFs from 2010 through 2022, distinguishing between AI-related and
+          non-AI-related positions as well as between back-end and front-end positions. We further leverage
+          the 2015 launch of TensorFlow as a plausibly exogenous shock to the availability of AI applications
+          in PSFs. Our findings strongly support our theoretical arguments. More broadly, this study suggests
+          that through task interdependence and organizational design, increased AI use can reshape social
+          tasks that currently make limited direct use of AI but rely heavily on AI-generated information.
+        presentations:
+          - "AIM 2025; WCRS Doctoral Consortium"
+      - title: "Substitution Over Compliance? Strategic Innovation between Data Privacy and Security Under Regulatory Scrutiny"
+        authors: "Roh, A., Jia, N., & Miric, M."
+        year: 2024
+        status: "Working Paper"
+        abstract: >-
+          To Be Updated.
+        presentations:
+          - "Strategy and Business Environment 25th Anniversary Conference; 2025 NMSRC Doctoral Conference; AOM 2025"
+      - title: "Government Policy and Innovation Outcomes: Evidence from 2006 Chinese Indigenous Innovation Policy on Automation-AI Technologies"
+        authors: "Roh, A., Miric, M., & Jia, N."
+        year: 2024
+        status: "Working Paper"
+        distinction: "Finalist, AIM 2025"
+        abstract: >-
+          To Be Updated.
+        presentations:
+          - "AIM 2025; The 2nd Lakeside Management Conference (Paper Development Workshop); AOM 2025"
+  - id: works-in-progress
+    title: "Work in Progress"
+    papers:
+      - title: "The Great Equalizer? AI and Market Access for Smaller and Lower-Status Firms"
+        authors: "Jia, N., Roh, A., Shi, H., & Yang, Z."
+        year: 2025
+        status: "Preliminary Results"
+      - title: "To Learn or to Leverage? The Strategic Decision to Allow Employee Use of AI"
+        authors: "Camara, O., Jia, N., & Roh, A."
+        year: 2025
+        status: "Refining Theoretical Model"
+      - title: "The Differential Impact of Generative AI on Strategy Research and Researchers"
+        authors: "Kang, H., & Roh, A."
+        year: 2024
+        status: "Preliminary Results"
+      - title: "Indirect Lobbying to FERC Commissioners"
+        authors: "Roh, A., Hiatt, S., & Ryu, A."
+        year: 2023
+        status: "Preliminary Results"
+  - id: pre-phd-research
+    title: "Pre-PhD Research"
+    papers:
+      - title: "Career Incentives and Influence Activities on Social Media: Evidence from Chinese Academia"
+        authors: "Chen, S., Fan, X., & Roh, A."
+        year: 2019
+        status: "Under Review"
+        abstract: >-
+          To Be Updated.
+        presentations:
+          - "2021 Symposium on Contemporary Labor Economic; The Asian and Australasian Society of Labour Economic"

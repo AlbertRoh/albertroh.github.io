@@ -11,11 +11,11 @@ main:
 
 # Research sidebar
 sidebar-research:
-  - title: "Publications"
-    url: /research/#publications
+  - title: "Job Market Paper"
+    url: /research/#job-market-paper
   - title: "Working Papers"
     url: /research/#working-papers
-  - title: "Works-in-progress"
+  - title: "Work in Progress"
     url: /research/#works-in-progress
   - title: "Pre-PhD research"
     url: /research/#pre-phd-research
