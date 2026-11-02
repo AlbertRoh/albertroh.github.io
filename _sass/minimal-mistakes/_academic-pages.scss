@@ -159,6 +159,11 @@ button:focus-visible {
 
 /* Teaching: an outlined schedule link and a solid syllabus download. */
 .teaching-page .page__content {
+  .btn--schedule,
+  .btn--syllabus {
+    font-size: 1em;
+  }
+
   .btn--schedule {
     border: 1px solid $academy-slate;
     background-color: $academy-white;
@@ -189,22 +194,5 @@ button:focus-visible {
       background-color: $academy-blue;
       color: $academy-white;
     }
-  }
-
-  /* Keep teaching's existing list sizes scoped to its content. */
-  ul > li {
-    font-size: 1rem;
-  }
-
-  ul > li > ul > li {
-    font-size: 0.75rem;
-  }
-
-  ul > li > ul > li > ul > li {
-    font-size: 0.5rem;
-  }
-
-  ul > li > ul > li > ul > li > ul > li {
-    font-size: 0.25rem;
   }
 }

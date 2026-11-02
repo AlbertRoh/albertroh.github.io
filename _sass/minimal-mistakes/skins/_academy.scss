@@ -1,3 +1,14 @@
+/* Shared Garamond typography for all site text. */
+$garamond: "EB Garamond", Garamond, "Times New Roman", serif;
+$serif: $garamond;
+$sans-serif: $garamond;
+$sans-serif-narrow: $garamond;
+$monospace: $garamond;
+$Alike: $garamond;
+$global-font-family: $garamond;
+$header-font-family: $garamond;
+$caption-font-family: $garamond;
+
 /* Academy palette: dark headings, blue actions, quiet neutral surfaces. */
 $academy-blue: #003594;
 $class-royal: #002554;
