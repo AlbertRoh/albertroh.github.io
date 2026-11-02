@@ -236,7 +236,7 @@
         left: 0;
         bottom: 0;
         height: 3px; /* 4px */
-        background: #c1a367; /* $primary-color */
+        background: $link-color;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

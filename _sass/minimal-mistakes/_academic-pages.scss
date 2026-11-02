@@ -1,0 +1,210 @@
+/* Shared site accents. Palette values live in skins/_academy.scss. */
+.page__content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $academy-navy;
+  }
+}
+
+.author__name,
+.nav__title,
+.nav__sub-title {
+  color: $academy-navy;
+}
+
+.nav__list .nav__items a {
+  &:hover,
+  &:focus-visible,
+  &.active {
+    color: $academy-blue;
+
+    .nav__sub-title {
+      color: inherit;
+    }
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $academy-blue;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: $academy-white;
+  background: $class-royal;
+}
+
+.page__footer {
+  border-top: 1px solid $border-color;
+
+  a:hover {
+    color: $academy-blue;
+  }
+}
+
+.social-icons {
+  .fas, .fab, .far, .fal, .svg-inline--fa {
+    color: $class-royal;
+  }
+}
+
+.cv-link {
+  font-weight: bold;
+}
+
+/* Research: two action colors and restrained, text-labelled status badges. */
+.research-page {
+  .button-container {
+    display: block;
+    margin-top: 8px;
+    margin-left: 2em;
+  }
+
+  .button-row {
+    display: block;
+    margin-bottom: 10px;
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      margin-right: 20px;
+      font-family: inherit;
+      font-size: inherit;
+      text-decoration: none;
+
+      &.abstract-btn {
+        color: $academy-blue;
+      }
+
+      &.talks-btn {
+        color: $class-royal;
+      }
+
+      &:hover {
+        color: $academy-navy;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .content-area {
+    display: block;
+    min-height: 0;
+
+    blockquote {
+      margin: 10px 0;
+      padding: 10px;
+      background-color: mix($academy-white, $academy-slate, 94%);
+      border-left: 3px solid $academy-slate;
+      font-style: normal;
+    }
+  }
+
+  .status-banner-r1,
+  .status-banner-r2,
+  .status-banner-review,
+  .status-banner-accepted {
+    display: inline-block;
+    padding: 2px 10px;
+    margin-left: 10px;
+    border-left: 3px solid;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+
+  .status-banner-r1 {
+    background-color: mix($academy-white, $academy-blue, 95%);
+    border-left-color: $academy-blue;
+    color: $class-royal;
+  }
+
+  .status-banner-r2 {
+    background-color: mix($academy-white, $class-royal, 90%);
+    border-left-color: $class-royal;
+    color: $class-royal;
+    font-weight: 600;
+  }
+
+  .status-banner-review {
+    background-color: mix($academy-white, $academy-slate, 90%);
+    border-left-color: $academy-slate;
+    color: $muted-text-color;
+  }
+
+  .status-banner-accepted {
+    background-color: mix($academy-white, $class-royal, 94%);
+    border-left-color: $academy-navy;
+    color: $academy-navy;
+    font-weight: 600;
+  }
+
+  .nomination-link {
+    color: $class-royal;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $academy-blue;
+    }
+  }
+}
+
+/* Teaching: an outlined schedule link and a solid syllabus download. */
+.teaching-page .page__content {
+  .btn--schedule {
+    border: 1px solid $academy-slate;
+    background-color: $academy-white;
+    color: $class-royal;
+
+    &:visited {
+      color: $class-royal;
+    }
+
+    &:hover {
+      border-color: $academy-blue;
+      background-color: $active-color;
+      color: $academy-blue;
+    }
+  }
+
+  .btn--syllabus {
+    border: 1px solid $class-royal;
+    background-color: $class-royal;
+    color: $academy-white;
+
+    &:visited {
+      color: $academy-white;
+    }
+
+    &:hover {
+      border-color: $academy-blue;
+      background-color: $academy-blue;
+      color: $academy-white;
+    }
+  }
+
+  /* Keep teaching's existing list sizes scoped to its content. */
+  ul > li {
+    font-size: 1rem;
+  }
+
+  ul > li > ul > li {
+    font-size: 0.75rem;
+  }
+
+  ul > li > ul > li > ul > li {
+    font-size: 0.5rem;
+  }
+
+  ul > li > ul > li > ul > li > ul > li {
+    font-size: 0.25rem;
+  }
+}

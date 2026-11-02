@@ -1,61 +1,20 @@
 ---
 title: 
 layout: single
-classes: wide
+classes: wide teaching-page
 author-profile: false
 permalink: /teaching/
 sidebar:
   title: "Teaching"
   nav: sidebar-teaching
 ---
-<style>
-/* ---------- Button color overrides ---------- */
-.btn.btn--info {
-  background-color: #8191A6 !important;
-  border-color: #8191A6 !important;
-  color: #ffffff !important;
-}
-.btn.btn--danger {
-  background-color: #BFA084 !important;
-  border-color: #BFA084 !important;
-  color: #ffffff !important;
-}
-.btn.btn--success {
-  background-color: #8C6F5E !important;
-  border-color: #8C6F5E !important;
-  color: #ffffff !important;
-}
-.btn:hover { filter: brightness(0.92); }
-
-/* ---------- Nested bullet font sizes ---------- */
-/* Main level bullets */
-ul > li {
-  font-size: 1rem; /* Base size for main bullets */
-}
-
-/* First level nested bullets */
-ul > li > ul > li {
-  font-size: 0.75rem; /* 75% of base size */
-}
-
-/* Second level nested bullets */
-ul > li > ul > li > ul > li {
-  font-size: 0.5rem; /* 50% of base size */
-}
-
-/* Third level nested bullets */
-ul > li > ul > li > ul > li > ul > li {
-  font-size: 0.25rem; /* 25% of base size */
-}
-
-</style>
 <div style="margin-top:10px;"></div>
 
 
 # University of Southern California
 + **Strategic Management**, *Instructor* (BUAD-497; Undergraduate)  
-  + Schedule: <a href="https://classes.usc.edu/term/20252/catalogue/course/BUAD497/" class="btn btn--info btn--small">Summer 2025</a>  
-  + Syllabus: <a href="/assets/pdf/BUAD497_Syllabus_Summer_2025_Final.pdf" class="btn btn--danger btn--small">PDF</a>  
+  + Schedule: <a href="https://classes.usc.edu/term/20252/catalogue/course/BUAD497/" class="btn btn--schedule btn--small">Summer 2025</a>
+  + Syllabus: <a href="/assets/pdf/BUAD497_Syllabus_Summer_2025_Final.pdf" class="btn btn--syllabus btn--small">PDF</a>
   + Teaching Evaluation:  
     + Mean: 3.72/4 (USC Marshall Average: 3.61; MOR Department Average: 3.65)  
     + Median: 4/4  

@@ -1,0 +1,51 @@
+/* Academy palette: dark headings, blue actions, quiet neutral surfaces. */
+$academy-blue: #003594;
+$class-royal: #002554;
+$academy-navy: #00263a;
+$academy-slate: #98a4ae;
+$academy-grey: #b2b4b2;
+$academy-white: #fff;
+
+$background-color: $academy-white;
+$text-color: #000;
+$muted-text-color: mix($academy-navy, $academy-slate, 65%);
+$gray: $muted-text-color;
+$light-gray: $academy-grey;
+$lighter-gray: mix($academy-white, $academy-grey, 85%);
+$border-color: mix($academy-white, $academy-grey, 40%);
+$footer-background-color: mix($academy-white, $academy-slate, 92%);
+$code-background-color: $footer-background-color;
+$form-background-color: $footer-background-color;
+
+$primary-color: $academy-blue;
+$info-color: $academy-blue;
+$success-color: $class-royal;
+$warning-color: mix($class-royal, $academy-slate, 70%);
+$danger-color: $academy-navy;
+$focus-color: $academy-blue;
+$active-color: mix($academy-white, $academy-blue, 94%);
+
+$link-color: $academy-blue;
+$link-color-hover: $class-royal;
+$link-color-visited: $academy-blue;
+$masthead-link-color: $academy-navy;
+$masthead-link-color-hover: $academy-blue;
+$navicon-link-color-hover: $active-color;
+
+/* Keep code blocks within the same blue and grey family. */
+$base00: $academy-navy;
+$base01: $class-royal;
+$base02: mix($academy-navy, $academy-slate, 75%);
+$base03: $academy-slate;
+$base04: $academy-grey;
+$base05: mix($academy-white, $academy-grey, 85%);
+$base06: mix($academy-white, $academy-grey, 95%);
+$base07: $academy-white;
+$base08: mix($academy-white, $academy-blue, 65%);
+$base09: mix($academy-white, $academy-slate, 50%);
+$base0a: $academy-grey;
+$base0b: mix($academy-white, $academy-blue, 75%);
+$base0c: $academy-slate;
+$base0d: mix($academy-white, $academy-blue, 65%);
+$base0e: mix($academy-white, $academy-slate, 65%);
+$base0f: mix($academy-white, $academy-blue, 80%);
