@@ -28,5 +28,5 @@ sidebar:
   + Spring 2025  
   + Content: Session on large language models and their managerial applications.  
 + **Seminar in Strategic Management**, *Guest Speaker* (MOR-603; Ph.D.)  
-  + Fall 2024  
+  + Fall 2026; Fall 2024  
   + Content: Seminar on transformer architecture, attention mechanisms, and applications of large language models in management research.
